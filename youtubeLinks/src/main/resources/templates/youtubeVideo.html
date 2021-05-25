@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+</head>
+<body>
+<h1>Video</h1>
+<video width="320" height="240" controls>
+    <source th:src="${videoObj.getYoutubeLink()}">
+</video>
+
+</body>
+</html>
